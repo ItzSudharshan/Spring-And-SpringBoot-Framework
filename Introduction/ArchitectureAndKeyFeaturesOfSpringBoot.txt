@@ -1,0 +1,38 @@
+Overview of Spring Boot Architecture
+
+Spring Core Framework:
+🏢 At its base, Spring Boot relies on the Spring Framework. It uses Dependency Injection (DI) and Inversion of Control (IoC) to handle objects and their lifecycles. Imagine your app saying, “Hey Spring, I need help managing my stuff,” and Spring handles it like a pro.
+
+Auto-Configuration Module:
+🫡 Spring Boot’s auto-configuration automatically sets up your application based on the libraries you use. It’s like having a smart assistant who knows what you need before you do.
+
+Embedded Server:
+🍽️ Built-in servers like Tomcat and Jetty let you run your application without external setup. Imagine having your oven pre-heated before you even start cooking. That’s how effortless it is!
+
+Spring Boot CLI:
+🎥 The Command Line Interface (CLI) lets you write and test applications quickly. Perfect for quick experiments or prototypes. It’s like the fast-food counter of app development.
+
+Actuator:
+🏋️‍♂️ This module provides health checks, metrics, and monitoring tools. It’s like having a fitness tracker for your application. 💪
+----------------------------------------------------------------------------------------------------------------------------------------------
+What are Starter POMs?
+📃 Curated packages that include all the libraries you need for a particular functionality.
+
+For example, want to build a web app? Add spring-boot-starter-web, and you’re good to go. It includes Spring MVC, Tomcat, and Jackson. Talk about all-in-one convenience! 🎉
+----------------------------------------------------------------------------------------------------------------------------------------------
+Common Starter POMs
+spring-boot-starter:
+Includes basic logging and Spring dependencies. 💡
+
+spring-boot-starter-web:
+For web applications, with Spring MVC and Tomcat. 🔧
+
+spring-boot-starter-data-jpa:
+For database operations using Hibernate and JPA. 📊
+
+spring-boot-starter-test:
+Includes tools like JUnit and Mockito for testing. 🔢
+
+spring-boot-starter-security:
+For authentication and authorization features. 🔒
+--------------------------------------------------------------------------------------------------------------------------------------------------
